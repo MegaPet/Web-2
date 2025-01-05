@@ -1,0 +1,35 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+  background-color: brown;
+}
+
+nav {
+  background-color: blanchedalmond;
+}
+
+main{
+  background-color: chocolate;
+  font-size: 1rem;
+}
+
+footer{
+  background-color: brown;
+}
+
+li{
+  width: 75%;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+}
+
+p{
+  line-height: 1.125rem;
+}
+
