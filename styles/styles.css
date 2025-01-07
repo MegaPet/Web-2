@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body{
   font-family: 'Courier New', Courier, monospace;
 }
@@ -8,7 +14,35 @@ header{
 
 nav {
   background-color: blanchedalmond;
+  width: 80%;
 }
+
+nav ul > li{
+  display: inline-block;
+  padding: .5rem 1.5rem;
+}
+
+nav > img{
+  width: 10%;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid > img{
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 
 main{
   background-color: chocolate;
@@ -19,9 +53,9 @@ footer{
   background-color: brown;
 }
 
-li{
+/* li{
   width: 75%;
-}
+} */
 
 h1{
   text-align: center;
